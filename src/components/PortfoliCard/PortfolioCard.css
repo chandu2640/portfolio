@@ -1,0 +1,121 @@
+.box{
+    width: 375px;
+    height: 60vh;
+    /* border: 2px solid; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    /* padding: 1%; */
+    margin-bottom: 7vh;
+}
+.imageSection{
+    overflow: hidden;
+    height: 65%;
+    transition: all 1s ease;
+}
+.imageSection:hover{
+    height: 100%;
+}
+.imageSection img{
+    width: 100%;
+    transition: all 6s ease;
+}
+.imageSection img:hover{
+    transform: translatey(-80%);
+}
+
+.githubImg{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.githubImg img{
+    width: 100%;
+}
+.content{
+    /* height: 30%; */
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease;
+    text-align: justify;
+    margin-top: -80px;
+    padding: 0 20px 20px 20px;
+    text-decoration: none;
+    /* background-color: #edf2f8; */
+}
+.box:hover .content{
+    opacity: 0;
+}
+.box:hover .githubImg{
+    bottom: 50px;
+}
+.box:hover .imageSection{
+    height: 100%;
+}
+.contentHeading{
+    font-size: 2rem;
+}
+.contentHeading span{
+    font-size: 2rem;
+    text-decoration: none;
+}
+.contentDetails{
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 480px){
+    .box {
+        width: 95%;
+        height: fit-content;
+      }
+      .content{
+          height: fit-content;
+      }
+  
+      .contentHeading{
+          font-size: 1.4rem;
+          margin: 5px 0;
+      }
+      .imageSection{
+        overflow: none;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .imageSection img{
+        width: 100%;
+    }
+  }
+@media screen and (max-width: 920px){
+    .box {
+        /* width: 95%; */
+        height: fit-content;
+        margin-bottom: 3vh;
+      }
+      .content{
+          height: fit-content;
+      }
+  
+      .contentHeading{
+          margin: 5px 0;
+      }
+      .imageSection{
+        /* overflow: none; */
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .imageSection img{
+        width: 100%;
+    }
+  }

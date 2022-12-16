@@ -1,0 +1,112 @@
+.footer {
+  
+  display: flex;
+  align-items: center;
+  margin: -0.5rem -3.5rem;
+  justify-content: center;
+  margin-top: 7rem;
+  height: 60vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #edf2f8;
+  /* gap: 0; */
+}
+.f-content {
+  z-index: 85;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  /* margin-top: 4rem; */
+  gap: 2rem;
+  color: var(--orange);
+}
+  .f-icons {
+    display: flex;
+    gap: 2rem;
+  }
+  .first-heading span{
+    font-size: 2rem;
+  }
+  .my-details{
+    display: flex;
+    gap: 30px;
+  }
+  .firstSubHeading{
+    color: var(--black);
+  }
+  .myDetails-det a{
+    width: 320px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: 30px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  .myDetails-det a img{
+    width: 30px;
+  }
+.copyWright span{
+  font-size: 0.6rem;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lastIcons img{
+  width: 40px;
+  cursor: pointer;
+}
+/* .lastIcons :hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 500px;
+} */
+.findIcons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  
+}
+.findIcons, .my-details{
+  margin-top: -20px;
+}
+.codeshef img{
+  width: auto;
+  height: 50px;
+}
+
+
+@media screen and (max-width: 480px){
+  .f-content{
+    transform: scale(.5);
+  }
+  .footer{
+    height: 40vh;
+    margin-top: 0rem;
+  }
+  .my-details{
+    flex-wrap: wrap;
+    gap: 0.7rem;
+  }
+  .myDetails-det a{
+    width: 500px;
+  }
+  .myDetails-det a span{
+    font-size: 1.4rem;
+  }
+  .first-heading span{
+    font-size: 2.5rem;
+  }
+  .lastIcons img{
+    width: 50px;
+  }
+  .findIcons {
+    gap: 2.8rem;
+  }
+}
