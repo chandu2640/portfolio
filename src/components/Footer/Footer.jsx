@@ -34,19 +34,19 @@ const Footer = () => {
         </div>
         <div className="findIcons">
           <div className="linkedin lastIcons">
-            <a href="https://www.linkedin.com/in/chandanthakur4562/"><img src={Linkedin} alt="" /></a>
+            <a href="https://www.linkedin.com/in/chandanthakur4562/" target={"_blank"}><img src={Linkedin} alt="" /></a>
           </div>
           <div className="github lastIcons">
-            <a href="https://github.com/chandu2640"><img src={Github} alt="" /></a>
+            <a href="https://github.com/chandu2640" target={"_blank"}><img src={Github} alt="" /></a>
           </div>
           <div className="leetcode lastIcons">
-            <a href="https://leetcode.com/chandan2640/"><img src={Leetcode} alt="" /></a>
+            <a href="https://leetcode.com/chandan2640/" target={"_blank"}><img src={Leetcode} alt="" /></a>
           </div>
           <div className="codeshef lastIcons">
-          <a href="https://www.codechef.com/users/chandan2640"><img src={Codechef} alt="" /></a>
+          <a href="https://www.codechef.com/users/chandan4562" target={"_blank"}><img src={Codechef} alt="" /></a>
           </div>
           <div className="geeks lastIcons">
-          <a href="https://auth.geeksforgeeks.org/user/thakurchandan4562/practice"><img src={Gfg} alt="" /></a>
+          <a href="https://auth.geeksforgeeks.org/user/thakurchandan4562/practice" target={"_blank"}><img src={Gfg} alt="" /></a>
           </div>
         </div>
         <div className="copyWright">

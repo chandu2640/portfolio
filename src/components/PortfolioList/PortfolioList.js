@@ -11,7 +11,6 @@ import { Link } from 'react-router-dom';
 const PortfolioList = () => {
     const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-    console.log(myData)
   return (
     <div className='portfolioList'>
         <div className="titlesOfPortfolio">

@@ -33,16 +33,6 @@ const Works = () => {
               </div>
             </div>
             <div className="achieveDetails">
-              <div className="achieveDate">2019</div>
-              <div className="achieveBody">
-                <div className="achieveMainTopic">Compex Scholorship</div>
-                <div className="achieveProvider">Indian Embassy of Nepal</div>
-                <div className="achieveFullDetails">
-                  Receive Full Scholorship for B.Tech along with the monthly stipend
-                  </div>
-              </div>
-            </div>
-            <div className="achieveDetails">
               <div className="achieveDate">2018</div>
               <div className="achieveBody">
                 <div className="achieveMainTopic">Youth Leadership Award, 2018</div>
@@ -52,6 +42,17 @@ const Works = () => {
                   </div>
               </div>
             </div>
+            <div className="achieveDetails">
+              <div className="achieveDate">2019</div>
+              <div className="achieveBody">
+                <div className="achieveMainTopic">Compex Scholorship</div>
+                <div className="achieveProvider">Indian Embassy of Nepal</div>
+                <div className="achieveFullDetails">
+                  Receive Full Scholorship for B.Tech along with the monthly stipend
+                  </div>
+              </div>
+            </div>
+            
             <div className="achieveDetails">
               <div className="achieveDate">2019</div>
               <div className="achieveBody">

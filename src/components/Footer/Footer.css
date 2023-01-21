@@ -82,6 +82,28 @@
 }
 
 
+@media screen and (max-width: 750px){
+  .my-details{
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /* gap: 0.7rem; */
+  }
+  .myDetails-det a{
+    width: 500px;
+  }
+}
+@media screen and (max-width: 550px){
+  .my-details{
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /* gap: 0.7rem; */
+  }
+  .myDetails-det a{
+    width: 400px;
+  }
+}
 @media screen and (max-width: 480px){
   .f-content{
     transform: scale(.5);

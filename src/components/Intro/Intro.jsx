@@ -44,11 +44,11 @@ const Intro = () => {
         
         
         <div className="i-icons">
-          <a href="https://github.com/chandu2640"><img src={Github} alt="" /></a>
-          <a href="https://www.linkedin.com/in/chandanthakur4562/"><img src={LinkedIn} alt="" /></a>
-          <a href="https://leetcode.com/chandan2640/"><img src={Leetcode} alt="" /></a>
-          <a href="https://auth.geeksforgeeks.org/user/thakurchandan4562/practice"><img src={Gfg} alt="" /></a>
-          <a href="https://www.codechef.com/users/chandan2640"><img src={Codechef} alt="" /></a>
+          <a href="https://github.com/chandu2640" target={"_blank"}><img src={Github} alt="" /></a>
+          <a href="https://www.linkedin.com/in/chandanthakur4562/" target={"_blank"}><img src={LinkedIn} alt="" /></a>
+          <a href="https://leetcode.com/chandan2640/" target={"_blank"}><img src={Leetcode} alt="" /></a>
+          <a href="https://auth.geeksforgeeks.org/user/thakurchandan4562/practice" target={"_blank"}><img src={Gfg} alt="" /></a>
+          <a href="https://www.codechef.com/users/chandan4562" target={"_blank"}><img src={Codechef} alt="" /></a>
           
           {/* <img src={LinkedIn} alt="" />
           <img src={Instagram} alt="" /> */}
@@ -68,28 +68,27 @@ const Intro = () => {
           alt=""
         /> 
 
-        <motion.div
+        {/* <motion.div
           initial={{ top: "-4%", left: "74%" }}
           whileInView={{ left: "68%" }}
           transition={transition}
           className="floating-div"
         >
           <FloatinDiv img={crown} text1="Web" text2="Developer" />
-        </motion.div>
+        </motion.div> */}
 
         {/* animation */}
         
 
 
-        <motion.div
+        {/* <motion.div
           initial={{ left: "9rem", top: "18rem" }}
           whileInView={{ left: "0rem" }}
           transition={transition}
           className="floating-div"
         >
-          {/* floatinDiv mein change hy dark mode ka */}
           <FloatinDiv img={thumbup} text1="Software" text2="Developer" />
-        </motion.div>
+        </motion.div> */}
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div

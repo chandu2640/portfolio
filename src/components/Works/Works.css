@@ -1,5 +1,5 @@
 .works {
-  padding: 0 3rem 0 3rem;
+  /* padding: 0 3rem 0 3rem; */
   display: flex;
   /* height: 90vh; */
   margin-top: 4rem;
@@ -18,7 +18,7 @@
   width: 50%;
 }
 .w-right{
-  width: 50%;
+  /* width: 50%; */
 }
 
 .awesome > :nth-child(1) {
@@ -167,6 +167,63 @@
   }
 }
 
+@media screen and (max-width: 916px) {
+  .works {
+    flex-direction: column;
+    /* height: 36rem; */
+    padding: 0;
+    /* gap: 5rem; */
+  }
+  .w-left{
+    width: 100%;
+  }
+
+  .w-right {
+    width: 130%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    transform: scale(1.2);
+    padding: -5rem;
+    right: 0px;
+    top: 40px;
+  }
+  .w-mainCircle{
+    position: static;
+  }
+  .w-backCircle{
+    left: 8rem!important;
+  }
+
+}
+@media screen and (max-width: 680px) {
+  .works {
+    flex-direction: column;
+    /* height: 36rem; */
+    padding: 0;
+    /* gap: 5rem; */
+  }
+  .w-left{
+    width: 100%;
+  }
+
+  .w-right {
+    width: 130%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    transform: scale(0.8);
+    padding: -5rem;
+    right: 0px;
+  }
+  .w-mainCircle{
+    position: static;
+  }
+  .w-backCircle{
+    left: 8rem!important;
+  }
+
+}
 @media screen and (max-width: 480px) {
   .works {
     flex-direction: column;
@@ -182,7 +239,7 @@
     width: 130%;
     display: flex;
     align-items:center;
-    justify-content:start;
+    justify-content:center;
     transform: scale(0.7);
     padding: -5rem;
     right: 0px;
